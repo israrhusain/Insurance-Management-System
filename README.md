@@ -20,7 +20,9 @@ There are different Api's in for each Entity
 #### API'S Working for Client Entity:
 ##### 1.POST/api/clients:
 
-   This api add the client in to database.Controller layer takes data from DTO ans send to service layer service layer send it to repository layer.
+   This api add the client in to database.Controller layer takes data from DTO ans send to service layer 
+   service layer send it to repository layer.
+   
    ![image](https://user-images.githubusercontent.com/54683061/229731804-14bd2dc9-a869-4c04-acb2-dae90a3f4bcb.png)
    
 #### 2. PUT/api/Clients/{id}
