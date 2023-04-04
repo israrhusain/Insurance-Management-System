@@ -1,17 +1,18 @@
 package com.example.Insurance.Application.DTos;
 
-import java.sql.Date;
 
-import org.springframework.format.annotation.DateTimeFormat;
+import java.util.*;
+
+
 
 public class ResponsePolicyDto {
     private int policyNumber;
     private String policyType;
     private int coverageAmount;
     private int premiumAmount;
-    @DateTimeFormat(pattern = "YYYY-MM-DD")
+   
     private Date startDate;
-    @DateTimeFormat(pattern = "YYYY-MM-DD")
+   
     private Date endDate;
     
     
@@ -42,15 +43,17 @@ public class ResponsePolicyDto {
     public Date getStartDate() {
         return startDate;
     }
-    public void setStartDate(java.util.Date date) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
     public Date getEndDate() {
         return endDate;
     }
-    public void setEndDate(java.util.Date date) {
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
+   
+   
 
 
     
