@@ -1,4 +1,4 @@
-# Inurance-Management-System
+# Insurance-Management-System
 ## About Project
 This is a spring boot application which handles the inurance infrastructure by using the functionalities of this application.In this project technologies used Maven,Jpa 
 Hibernate,MYSQL DB, spring  framework ,java ,Data structure ,OOPs concept etc.
