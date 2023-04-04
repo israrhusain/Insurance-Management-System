@@ -87,6 +87,14 @@ There are different Api's in for each Entity
 
 
 
+### Key features of this Application:
+
+ The Spring Boot Project provides four key features to begin with and these can be considered as the reason behind Spring Boot’s magic.
+  ###### • Spring Boot Starters
+  ###### • Automatic configuration
+  ###### • Spring Boot CLI
+  ###### • Spring Boot Actuator
+
 
 
 
